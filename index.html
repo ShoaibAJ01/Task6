@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruitment Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Recruiter Registration -->
+    <div id="recruiter-registration" class="screen">
+        <h2>Recruiter Registration</h2>
+        <form id="registration-form">
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required><br><br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <!-- Admin Approval -->
+    <div id="admin-approval" class="screen">
+        <h2>Admin Approval</h2>
+        <p>Please wait for admin approval.</p>
+    </div>
+
+    <!-- Job Posting -->
+    <div id="job-posting" class="screen">
+        <h2>Job Posting</h2>
+        <form id="job-posting-form">
+            <input type="text" placeholder="Job Title" required>
+            <input type="number" placeholder="Job Salary (PKR)" required>
+            <input type="text" placeholder="Candidate Experience" required>
+            <input type="number" placeholder="Incentive Offered (PKR)" required>
+            <textarea placeholder="Job Description" required></textarea><br><br>
+            <button type="submit">Post Job</button>
+        </form>
+    </div>
+
+    <!-- Job Listing -->
+    <div id="job-listing" class="screen">
+        <h2>Job Listing</h2>
+        <ul id="job-list"></ul>
+    </div>
+
+    <!-- Job Details -->
+    <div id="job-details" class="screen">
+        <h2>Job Details</h2>
+        <div id="job-details-content"></div>
+        <button id="apply-btn">Apply for Job</button>
+    </div>
+
+    <!-- Candidate Application -->
+    <div id="candidate-application" class="screen">
+        <h2>Candidate Application</h2>
+        <form id="candidate-application-form">
+            <input type="text" placeholder="Candidate Name" required>
+            <input type="email" placeholder="Candidate Email" required><br><br>
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
